@@ -244,4 +244,64 @@ C) One can write inline event handlers in the web page although it is not recomm
 3) Only C 
 
 ----------------------------------------------------------------------------------------------------------------------
-msa check 2
+Suppose you have an object Employee created as follows:
+
+var emp=new Employee("Sagar",23, "Kothrud");
+
+The template for Employee is: function Employee(name,age.address) {
+
+this.name = name;
+
+this.age = age;
+
+this.address = address;
+
+Which of the following will add a new property "location with value "Pune" to all employees?
+
+1) Employee.prototype.location="Pune";
+
+2) Object.location="Pune";
+
+..
+
+----------------------------------------------------------------------------------------------------------
+ What will be the output?
+
+function Employee(r){
+role = "tester";
+this.role = r;
+this.getRole = function(){
+console.log(role);
+};
+}
+var e1= new Employee("developer");
+
+e1.getRole();
+1) developer
+
+2) undefined
+
+...
+--------------------------------------------------------------------------------------------------------------
+Select correct way to add property "num" to the "obj" object
+
+1) obj['num']= 12
+
+2) obj.num=12
+
+3) Object.defineProperty(obj,'num',[value:12])
+
+4) All of the above
+
+-----------------------------------------------------------------------------------------------------------
+
+ How do you msert a comment in a CSS3 file?
+
+1) #Comment in CSS
+
+2) ( Comment in CSS)
+
+3) /*Comment in CSS*/
+
+4) None of the above
+-------------------------------------------------------------------------------------------
