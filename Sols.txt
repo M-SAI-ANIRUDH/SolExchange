@@ -244,3 +244,4 @@ C) One can write inline event handlers in the web page although it is not recomm
 3) Only C 
 
 ----------------------------------------------------------------------------------------------------------------------
+msa check 2
