@@ -7,15 +7,16 @@ Suppose in a html file, there is a button inside one div as -
 Java script code is :
 
 document.getElementById("submit").onclick= buttonHandler;
-document.getElementById("section1").onclick= dilHandler,
+document.getElementById("section1").onclick= divHandler,
 
 function buttonHandler()
 { console.log("button handler");
-
+}
 
 function divHandler() 
 { console.log("div handler");
 }
+
 
 What will be the output when bullon is clicked?
 
@@ -31,7 +32,8 @@ What will be the output when bullon is clicked?
    button Handler
 5) Run time error
 
-Answer:
+Answer: 2. divHandler
+		buttonHandler
 ---------------------------------------------------------------------------------------------------
 
 
