@@ -1,0 +1,167 @@
+Suppose in a html file, there is a button inside one div as -
+
+<div id="section1">
+<button id="submit" >Submit</button>
+</div>
+
+Java script code is :
+
+document.getElementById("submit").onclick= buttonHandler;
+document.getElementById("section1").onclick= dilHandler,
+
+function buttonHandler()
+{ console.log("button handler");
+
+
+function divHandler() 
+{ console.log("div handler");
+}
+
+What will be the output when bullon is clicked?
+
+1) div Handler
+   button Handler
+2) button Handler
+   div Handler
+
+2) div Handler
+   div Handler
+
+2) button Handler
+   button Handler
+5) Run time error
+
+
+---------------------------------------------------------------------------------------------------
+
+
+What will be displayed on page if the below input type (number) is not supported by the user's browser?
+<input type="number" id="age" />
+
+1) It will display an error (typeNotSupported) on the page.
+
+2) It will display a plain text box.
+
+3)It will not display anything.
+
+4) None of the Above
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+Which of the following statements is\are true?
+
+1) Closure is a special kind of variable.
+
+2) Closure is a special kind of in built object.
+
+3) Using closures, we can't create private members
+
+4) There is no memory overhead even if we use closures excess required of not
+
+
+-------------------------------------------------------------------------------------------------------
+Which is designed for storage that spans multiple windows, and lasts beyond the current session
+
+1) Session Storage
+
+2) Window Storage
+
+3) Local Storage
+
+4) All of the above
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+Which of the following statements is\are correct?
+
+1) "onload" event is triggered when the user leaves the page.
+
+2) "onunload" event is triggered when the user enters the page.
+
+3) "onclick" technically is a keyboard event.(type of event)
+
+4) "onclick" technically is a mouse event.(type of event)
+
+---------------------------------------------------------------------------------------------------------
+
+What will be the output of the following JavaScript code?
+
+function output(option)
+{
+return (option ? 'yes' no');
+}
+var ans=true;
+console.log(output(ans));
+
+1) error
+
+2) yes
+
+3) no
+
+4) None of the above
+
+----------------------------------------------------------------------------------------------------------
+
+
+The output of the below JavaScript when user click on 'submit' button: 
+<script type="text/JavaScript">
+window.onload = function(){
+document.getElementById("submit").addEventListener("click",validatelnput,false);
+document.getElementById("submit").addEventListener("click",postvalidate,false);
+}
+<script>
+
+1) validatelnput & postvalidate functions will be executed.
+
+2) only validatelnput function will be executed.
+
+3) only postvalidate function will be executed
+
+4) will throw JavaScript error
+
+-------------------------------------------------------------------------------------------------------------
+
+
+select correct statement from the following that explains the meaning of undefined and null values for variable
+
+1) undefined is when the program did not create the variable and null when program can't create a value.
+
+2) null is a computed value of a variable and undefined is programmer defined value of a variable.
+
+3) undefined is assigned by browser until the variable is not given a value, null is assigned by programer
+
+4) undefined is when program can not assign the value and null when programmer cannot assign a value
+
+---------------------------------------------------------------------------------------------------------------
+
+Select the correct statement about prototype object in JavaScript
+
+1) Prototype can be used only to add methods and not properties.
+
+2) Anything you add to this will be inherited by all its sub objects.
+
+3) You are allowed to create only one prototype per object.
+
+4) Prototype is not supported in mobile browsers.
+
+-----------------------------------------------------------------------------------------------------------------
+
+What will happen if the name of the Ajax callback function is mis-spelt while registering it on 
+
+1) Ajax response will not be processed but no error will be shown
+
+2) Error is shown when page is first loaded
+
+3) Error is shown when response is received
+
+4) Error is shown when request is sent
+
+5) Cannot say depends on browser
+
+-----------------------------------------------------------------------------------------------------------------
