@@ -135,6 +135,7 @@ document.getElementById("submit").addEventListener("click",postvalidate,false);
 
 4) will throw JavaScript error
 
+Answer: 1) validatelnput & postvalidate functions will be executed.
 
 
 -------------------------------------------------------------------------------------------------------------
@@ -164,6 +165,8 @@ Select the correct statement about prototype object in JavaScript
 3) You are allowed to create only one prototype per object.
 
 4) Prototype is not supported in mobile browsers.
+
+Answer: 3) You are allowed to create only one prototype per object.
 
 -----------------------------------------------------------------------------------------------------------------
 
@@ -202,7 +205,7 @@ What is the output of the below code
 
 var color='red';
 function changeColor(){
-var color="green":
+var color="green";
 }
 
 
@@ -211,6 +214,8 @@ changoColor();
 1) red
 2) green
 3) undefined
+
+Answer: 1)red
 --------------------------------------------------------------------------------------------------------------------
 From JavaScript, when we send data to server from Payload/Request Body,__________________ header is used to indicate type of data that is being
 
@@ -221,6 +226,8 @@ From JavaScript, when we send data to server from Payload/Request Body,_________
 3) ContentLenght
 
 4) Type
+
+Answer : 2) Content Type
 
 --------------------------------------------------------------------------------------------------------------------------
 Assume there is a button with id "btn1".
@@ -239,6 +246,8 @@ Assume there are 2 functions named "method1" and "method2" What will happen when
 
 4) Order of execution not known
 
+Answer: 1) Execution order will be method1 and then method2
+
 -------------------------------------------------------------------------------------------------------------------------
 Select the statement which is true for JavaScript
 
@@ -249,6 +258,8 @@ Select the statement which is true for JavaScript
 3) must be compiled before use
 
 4) script is executed on the server
+
+Answer: 4) script is executed on the server
 -----------------------------------------------------------------------------------------------------------------------
 Which of the following is\are correct?
 
@@ -314,7 +325,7 @@ Select correct way to add property "num" to the "obj" object
 
 -----------------------------------------------------------------------------------------------------------
 
- How do you msert a comment in a CSS3 file?
+ How do you insert a comment in a CSS3 file?
 
 1) #Comment in CSS
 
@@ -323,6 +334,8 @@ Select correct way to add property "num" to the "obj" object
 3) /*Comment in CSS*/
 
 4) None of the above
+
+Answer: 3) /*Comment in CSS*/
 -------------------------------------------------------------------------------------------
 What will be the function of the following JavaScript code?
 
