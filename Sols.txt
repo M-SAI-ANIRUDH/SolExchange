@@ -324,4 +324,139 @@ Select correct way to add property "num" to the "obj" object
 
 4) None of the above
 -------------------------------------------------------------------------------------------
-nww q
+What will be the function of the following JavaScript code?
+
+var scope = "global scope";
+function checkscope()
+{
+var acope "local scope",
+function f()
+{
+return scope:
+}
+return t;
+}
+var func = checkscope();
+func();
+
+1) local scope
+2) global scope
+3) undefined
+4) null
+
+-------------------------------------------------
+
+What is the significance of the first parameter in getCurrentPosition() API?
+
+window navigator.geolocation.getCurrentPosition (onSuccessHandler);
+function on SuccessHandler(position){
+alert("Latitude is:" + position.coords.latitude);
+alert("Longitude is: "+ position.coords.longitude);
+}
+
+1) It is a callback function which will be called when the position details are retrieved.
+
+2) It is a callback function which will be calld when the postion details are partially retrieved.
+
+3) It is an object which will contain the position details.
+
+4) None of the above
+
+-----------------------------------------------------
+
+Select the correct statement about prototype object in JavaScript
+
+1) Prototype can be used only to add methods and not properties.
+
+2) Anything you add to this will be inherited by all its sub objects.
+
+3) You are allowed to create only one prototype per object.
+
+4) Prototype is not supported in mobile browsers.
+
+-----------------------------------------------------------
+Which of the following is the correct way of using Object.defineproperty method
+
+1) Object.defineproperty(object,key,value);
+
+2) Object.defineProperty(key,{property:value});
+
+3) Object.defineProperty(key.value);
+
+4) Object.defineProperty(object, key, {property:value});
+
+---------------------------------------------------------------
+
+Select correct code to declare a media query in CSS document
+
+1) @media only screen and (max-width: 480px) {}
+
+2) @screen only media and (max-width: 480px) {}
+
+3) @responsive only screen and (max-width: 480px){}
+
+4) $media only screen and (width: 480px) {}}
+
+----------------------------------------------------
+Select the correct answer from the following that completes the statement
+Object.keys method ____________
+
+ 
+1) will return only the key names of an object
+
+2) will loop over all the properties of an object whose enumerable property is set to true
+
+3) can be used to modify the names of the object properties
+
+4) is a boolien value that returns true if the object has any keys
+
+-------------------------------------------------------
+
+Which of the following tag would you use to highlight parts of your text?
+
+1) cite
+
+2) dfn
+
+3) mark
+
+4) All of above
+
+-----------------------------------------------------------
+CSS3 introduces______________________for responsive web design & allows developers to target different devices
+
+1) flexbox
+
+2) Media Querries
+ 
+3) float property
+
+4) inline-block
+
+-----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
