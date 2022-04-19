@@ -448,12 +448,72 @@ CSS3 introduces______________________for responsive web design & allows develope
 
 -----------------------------------------------------------
 
+What will be output of following Javascript code?
 
+<script>
+var foo=10;
+var foo=20;
+alert(foo) 
+</script>
 
+1) 10
 
+2) 20
 
+3) Error: foo redclared
 
+---------------------------------------------------------
 
+In CSS3 the line between two columns can be specified by the ____________________property.
+
+1) column-line
+
+2) column-rule
+
+3) horizontal-rule
+
+4) line-rule
+
+--------------------------------------------------------
+
+Which of the following is correct way to write a JSON ?
+
+1) {
+   this role="developer";
+   }
+
+2) {
+   role="developer";
+   }
+
+3) {
+   this.role: "developer"
+   }
+ 
+4) {
+   role: "developer"
+   }
+
+----------------------------------------------------------
+
+Assume there is a div with id "div1" containing few images. How can we alert the "src" of first image from it in the script?
+
+ 
+1) var div1=document.getElementById("div1");
+   var first=div1.getElementsByName("img")[0];
+   alert(first.getAttribute("src"));
+
+2) var div1=document.getElementById("div1");
+   var first=div1.getElementsByTagName("img").firstChild;
+   alert(first.getAttribute"src"));
+
+3) var div1=document.getElementById("div1");
+   var first=div1.getElementsByTagName("img")[0];
+   alert(first.getAttribute("src"));
+
+4) None of the above
+
+------------------------------------------------------
 
 
 
