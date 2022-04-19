@@ -48,6 +48,7 @@ What will be displayed on page if the below input type (number) is not supported
 
 4) None of the Above
 
+Answer: 2.It will display a plain text box.
 
 
 ------------------------------------------------------------------------------------------------------
@@ -63,6 +64,7 @@ Which of the following statements is\are true?
 
 4) There is no memory overhead even if we use closures excess required of not
 
+Answer: ...
 
 -------------------------------------------------------------------------------------------------------
 Which is designed for storage that spans multiple windows, and lasts beyond the current session
@@ -75,6 +77,8 @@ Which is designed for storage that spans multiple windows, and lasts beyond the 
 
 4) All of the above
 
+Answer: Local Storage
+
 --------------------------------------------------------------------------------------------------------
 
 
@@ -83,11 +87,13 @@ Which of the following statements is\are correct?
 
 1) "onload" event is triggered when the user leaves the page.
 
-2) "onunload" event is triggered when the user enters the page.
+2) "onload" event is triggered when the user enters the page.
 
 3) "onclick" technically is a keyboard event.(type of event)
 
 4) "onclick" technically is a mouse event.(type of event)
+
+Answer: 2 & 4 (check if it's a MSQ?)
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -108,6 +114,8 @@ console.log(output(ans));
 
 4) None of the above
 
+Answer: Yes (check once)
+
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -127,6 +135,8 @@ document.getElementById("submit").addEventListener("click",postvalidate,false);
 
 4) will throw JavaScript error
 
+
+
 -------------------------------------------------------------------------------------------------------------
 
 
@@ -139,6 +149,9 @@ select correct statement from the following that explains the meaning of undefin
 3) undefined is assigned by browser until the variable is not given a value, null is assigned by programer
 
 4) undefined is when program can not assign the value and null when programmer cannot assign a value
+
+Answer: 3) undefined is assigned by browser until the variable is not given a value, null is assigned by programer
+
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -166,6 +179,9 @@ What will happen if the name of the Ajax callback function is mis-spelt while re
 
 5) Cannot say depends on browser
 
+Answer: 1. Ajax response will not be processed but no error will be shown 
+(from group IG)
+
 -----------------------------------------------------------------------------------------------------------------
 Which of the following are correct about web workers in HTML5?
 
@@ -177,6 +193,7 @@ Which of the following are correct about web workers in HTML5?
 
 4) All of the above
 
+Answer: 4) All of the above
 
 ----------------------------------------------------------------------------------------------------------------------
 
